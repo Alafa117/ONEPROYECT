@@ -1,6 +1,6 @@
-#textoSigno{
+#textoSigno {
     border-radius: 10px;
     display: flex;
-    background-color: rgb(95, 82, 82);
-    color: white;
+    background-color: #333333; /* Un gris oscuro en lugar del color original */
+    color: #ffffff; /* Blanco para el texto */
 }

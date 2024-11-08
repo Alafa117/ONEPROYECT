@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    background-color: #ffefd5;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 40px;
@@ -20,14 +20,14 @@ form {
 
 h1#txtBienvenida {
     font-size: 28px;
-    color: #ff6f61;
+    color: #000000; /* Negro para el texto */
     margin-bottom: 20px;
     animation: bounce 1s ease infinite alternate;
 }
 
 h4.txt {
     font-size: 16px;
-    color: #555;
+    color: #333333; /* Gris oscuro para texto secundario */
     margin-bottom: 5px;
     text-align: left;
 }
@@ -36,7 +36,7 @@ input.entry {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 2px solid #ff6f61;
+    border: 2px solid #333333; /* Borde gris oscuro */
     border-radius: 8px;
     outline: none;
     font-size: 14px;
@@ -44,14 +44,14 @@ input.entry {
 }
 
 input.entry:focus {
-    border-color: #f44336;
+    border-color: #000000; /* Negro en foco */
 }
 
 input#btnEnviar {
     width: 100%;
     padding: 10px;
-    background-color: #ff6f61;
-    color: white;
+    background-color: #333333; /* Fondo gris oscuro para botón */
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -60,14 +60,14 @@ input#btnEnviar {
 }
 
 input#btnEnviar:hover {
-    background-color: #f44336;
+    background-color: #000000; /* Negro en hover */
     transform: translateY(-3px);
 }
 
 button#forgotPasswordLink {
     margin-top: 15px;
     background-color: transparent;
-    color: #ff6f61;
+    color: #333333; /* Gris oscuro */
     border: none;
     cursor: pointer;
     text-decoration: underline;
@@ -75,15 +75,5 @@ button#forgotPasswordLink {
 }
 
 button#forgotPasswordLink:hover {
-    color: #f44336;
-}
-
-/* Animations */
-@keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
+    color: #000000; /* Negro en hover */
 }

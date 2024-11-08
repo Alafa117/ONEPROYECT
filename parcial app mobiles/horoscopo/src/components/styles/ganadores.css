@@ -2,10 +2,10 @@
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #333333; /* Borde gris oscuro */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombras oscuras */
+    background-color: #f1f1f1; /* Fondo gris claro */
 }
 
 .form-registrar-premio {
@@ -15,24 +15,28 @@
 
 label {
     margin-bottom: 8px;
+    color: #333333; /* Color gris oscuro para el texto */
 }
 
 input {
     margin-bottom: 16px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #333333; /* Borde gris oscuro */
     border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button {
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #333333; /* Fondo gris oscuro para el botón */
+    color: #ffffff; /* Texto blanco */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000; /* Negro en hover */
 }

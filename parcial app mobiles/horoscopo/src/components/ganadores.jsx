@@ -17,7 +17,7 @@ function Ganadores() {
         }
 
         try {
-            const response = await fetch("https://backganacomoloco-b1gi.vercel.app/v1/signos/premios", {
+            const response = await fetch("https://onesback.vercel.app/v1/signos/premios", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
